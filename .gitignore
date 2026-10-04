@@ -1,0 +1,26 @@
+# Local data — never commit (privacy)
+*.db
+*.db-wal
+*.db-shm
+*.sqlite
+exports/
+backups/
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+*.egg-info/
+dist/
+build/
+
+# Test / spike outputs
+test-output/
+*.png.tmp
+
+# Local tool settings
+.claude/settings.local.json
+
+# Old planning material (superseded; decide before publishing)
+Useless/
